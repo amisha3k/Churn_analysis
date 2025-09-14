@@ -1,12 +1,12 @@
 # Churn Analysis Project
 
 ## Problem Statement
-In today’s competitive business environment, retaining customers is crucial for long-term success. **Churn analysis** is a key technique used to understand and reduce customer attrition. It involves examining customer data to identify patterns and reasons behind customer departures. By using advanced data analytics and machine learning, businesses can predict which customers are at risk of leaving and understand the factors driving their decisions. This knowledge allows companies to take proactive steps to improve customer satisfaction and loyalty.
+In today’s competitive business environment, retaining customers is crucial for long-term success. **Churn analysis** is a key technique used to understand and reduce customer attrition. It involves examining customer data to identify patterns and reasons behind customer departures.
 
 ---
 
-## Overview
-This project performs a complete **Churn Analysis** using **SQL Server**, **Power BI**, and **Python**. It covers the end-to-end workflow from data extraction and cleaning to predictive modeling and visualization of predicted churners.
+## Target Audience
+Although this project focuses on churn analysis for a telecom firm, the techniques and insights are applicable across various industries. From **retail and finance to healthcare and beyond**, any business that values customer retention can benefit from churn analysis.
 
 ---
 
@@ -42,6 +42,24 @@ This project performs a complete **Churn Analysis** using **SQL Server**, **Powe
 6. **Visualize Predicted Data in Power BI**
    - Import predicted churn results into Power BI.
    - Create dashboards to visualize the **Predicted Churner Profile** and other insights.
+
+---
+
+![Power BI Dashboard](Dshboard.png)
+
+---
+## Key Insights
+- Analyzed **6,418 total customers** and identified **1,732 churn cases**, highlighting a **27% churn rate**.  
+- **64% of churn** came from male customers, while females contributed **36%**.  
+- **High churn in customers aged >50 years** (32%), compared to 24% in the 20–50 age range.  
+- **Fiber Optic internet users** are the highest-risk group with **41% churn**, vs. 19% for DSL and only 8% for customers without internet.  
+- **Mailed payment users churned at 38%**, compared to 15% for credit card users.  
+- **Competitor-driven churn** (761 cases) is the largest reason, followed by attitude (301) and dissatisfaction (300).  
+- **Churn by tenure analysis** revealed new customers (<6 months) churned at 26.4%, while long-term customers (≥24 months) had the highest churn at 27.5%.  
+- **Service-based churn drivers**:  
+  - 93.7% churners had internet services.  
+  - 74.6% used paperless billing.  
+  - 45.2% had multiple lines, showing bundled services do not always reduce churn.
 
 ---
 
