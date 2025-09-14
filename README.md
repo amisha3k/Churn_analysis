@@ -45,7 +45,7 @@ Although this project focuses on churn analysis for a telecom firm, the techniqu
 
 ---
 
-![Power BI Dashboard](Dshboard.png)
+![Power BI Dashboard](Dashboard.png)
 
 ---
 ## Key Insights
